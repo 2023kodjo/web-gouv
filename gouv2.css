@@ -1,0 +1,363 @@
+html{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.divdebut{
+    height: 90px;
+}
+.i1{
+    position: relative;
+    left: 150px;
+    top: 5px;
+    cursor: pointer;
+}
+.h1{
+position: relative;
+left: 250px;
+top: -100px;
+cursor: pointer;
+}
+.p1{
+position: relative;
+left: 250px;
+top: -120px;
+cursor: pointer;
+}
+.p2{
+position: relative;
+left: 900px;
+top: -180px;
+}
+.i2{
+    position: relative;
+    left: 1100px;
+    top: -240px;
+}
+.header{
+    background-color: #002a40;
+    height: 70px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: rgb(184, 188, 188);
+    letter-spacing:0.5px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+}
+.cadre{
+    background-color: rgb(250, 248, 245);
+    opacity: 20%;
+    width: 130px;
+    height: 70px;
+    position: relative;
+    top: -58px;
+    left: 320px;
+}
+
+
+
+
+
+
+
+.menu li{
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+
+form{
+    position: relative;
+    right: 810px;
+    top: 25px;
+    text-align: right;
+}
+.sp1{
+    color: rgb(253, 253, 254);
+    position: relative;
+    left: 50px;
+    top: 10px; 
+}
+
+
+
+.iconR{
+    position: relative;
+    left:-70px;
+    top: 12px;
+}
+
+input[type="search"]{
+font-size: 26px;
+width: 520px;
+height: 45px;
+position: relative;
+left: 210px;
+top: -10px;
+border: none;
+background: none;
+}
+.s1{
+    height: 80px;
+    background-color: #f5f5f5 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p3{
+    font-size: 35px;
+    position: relative;
+    top: -50px;
+}
+.p4{
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+    left: -10px;
+}
+.d1{
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+.d2{
+    position: relative;
+    left: 530px;
+    top: 110px;
+}
+.p5{
+    font-size: 35px;
+    position: relative;
+    top: -50px;
+}
+.p6{
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+    left: -10px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #002a40;
+    height: 405px;
+}
+.ifooter{
+    position: relative;
+    left: 55px;
+    top: -15px;
+}
+.hr2{
+    width: 1000px;
+    border-color: #fff;
+    opacity: .05;
+    position: relative;
+    top: 250px;
+}
+
+.pfin{
+    position: relative;
+    left: 410px;
+    top: 255px;
+    color: #9e9e9e !important;
+    font-size: 13.5px;
+}
+.df1{
+    line-height: 1px;
+    position: relative;
+    left:130px ;
+    top: 80px;
+}
+.df2{
+    line-height: 1px;
+    position: relative;
+    left: 370px;
+    top: -130px;
+}
+.df3{
+    line-height: 1px;
+    position: relative;
+    left: 635px;
+    top: -315px;
+}
+.df4{
+    line-height: 1px;
+    position: relative;
+    left: 900px;
+    top: -500px;
+}
+.l1{
+    position: relative;
+    top: -15px;
+    color: white;
+}
+.l2{
+    position: relative;
+    top: -50px;
+    color:white;
+}
+.l3{
+    position: relative;
+    top: -50px;
+    color:white;
+}
+.l4{
+    position: relative;
+    top: -50px;
+    color:white;
+}
+.dnumero{
+    color:white;
+}
+.dfin{
+    position: relative;
+    top: -700px;
+}
+.GDIV{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 40px;
+}
+.GDIV div{
+    background-color: #f5f5f5 !important;
+    border:1px rgb(16, 16, 16) solid;
+    width: 300px;
+    height: 200px;
+}
+.GDIV img{
+    position: relative;
+    left: 100px;
+    top: 15px;
+}
+
+
+.s3{
+    height: 1250px;
+    background-color: white !important;
+}
+
+.s3 div{
+    width: 300px;
+    height: 60px;
+    border: 1px rgb(12, 11, 11) solid;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.s3 .d1ok{
+    width: 630px;
+    height: 900px;
+    border: 1px black solid;
+    position: relative;
+    left: 210px;
+    top:-25px;
+}
+.hr1{
+    width: 600px;
+    color:rgb(88, 87, 87) ;
+    position: relative;
+    top: 200px;
+    left: 10px;
+}
+.dbutton{
+    border: 1px black solid;
+    background-color: red !important;
+    width: 150px;
+    height: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left:1000px ;
+    top: -30px;
+}
+
+
+
+.s3 .d1ok .DNOIR{
+    border-radius: 5px;
+    background-color: #002a40;
+    width: 600px;
+    height: 125px;
+    position: relative;
+    top: -35px;
+     left: 13px;
+     cursor: pointer;
+}
+.s2 a{
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+    position: relative;
+    left: 220px;
+    top: 5px;
+    text-decoration: none;
+}
+.s2{
+    background-color: #002a40;
+    height: 40px;
+    position: relative;
+    top: -5px;
+}
+.s3 .hrD{
+width: 500px;
+position: relative;
+top: 55px;
+opacity: .30;
+}
+.s3 .DNOIR .pa{
+    color:white ;
+    position: relative;
+    left:130px ;
+}
+.s3 .DNOIR .pb{
+    color:white ;
+    position: relative;
+    left: 90px;
+    top: -5px;
+}
+.s3 .DNOIR .pc{
+    color:white ;
+    position: relative;
+    left: 180px;
+    top: -15px;
+}
+.s3 div h4{
+    opacity: .70;
+    position: relative;
+    left: 60px;
+    top: -10px;
+    
+}
