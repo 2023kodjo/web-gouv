@@ -9,6 +9,8 @@ body{
     padding: 0px;
     margin: 0px;
 }
+
+
 .divdebut{
     height: 90px;
 }
@@ -66,6 +68,10 @@ ul li a:hover{
     position: relative;
     top: -58px;
     left: 320px;
+}
+.cadre:hover{
+    background-color:rgb(207, 202, 202);
+    box-shadow: 2px 2px 20px white;
 }
 
 
@@ -266,33 +272,27 @@ background: none;
 
 
 .s3{
-    height: 1250px;
+    height: 1850px;
     background-color: white !important;
 }
 
 .s3 div{
     width: 300px;
-    height: 60px;
-    border: 1px rgb(12, 11, 11) solid;
+    height: 55px;
+    border: 1px rgb(154, 152, 152) solid;
     position: relative;
     left: 200px;
     top: 50px;
 }
 .s3 .d1ok{
-    width: 630px;
-    height: 900px;
-    border: 1px black solid;
+    width: 600px;
+    height: 1490px;
+    border: 1px rgb(154, 152, 152) solid;
     position: relative;
     left: 210px;
     top:-25px;
 }
-.hr1{
-    width: 600px;
-    color:rgb(88, 87, 87) ;
-    position: relative;
-    top: 200px;
-    left: 10px;
-}
+
 .dbutton{
     border: 1px black solid;
     background-color: red !important;
@@ -310,12 +310,13 @@ background: none;
 .s3 .d1ok .DNOIR{
     border-radius: 5px;
     background-color: #002a40;
-    width: 600px;
+    width: 570px;
     height: 125px;
     position: relative;
-    top: -35px;
+    top: -15px;
      left: 13px;
      cursor: pointer;
+     box-shadow: 4px 4px 15px #aaa;
 }
 .s2 a{
     color: rgb(249, 249, 249);
@@ -340,24 +341,63 @@ opacity: .30;
 .s3 .DNOIR .pa{
     color:white ;
     position: relative;
-    left:130px ;
+    left:110px ;
 }
 .s3 .DNOIR .pb{
     color:white ;
     position: relative;
-    left: 90px;
+    left: 70px;
     top: -5px;
 }
 .s3 .DNOIR .pc{
     color:white ;
     position: relative;
-    left: 180px;
+    left: 160px;
     top: -15px;
 }
 .s3 div h4{
     opacity: .70;
     position: relative;
     left: 60px;
-    top: -10px;
+    top: -5px;
+    cursor: pointer;
     
+}
+.s3 .d1ok h4{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+.hr1{
+    width: 550px;
+    color:rgb(88, 87, 87) ;
+    position: relative;
+    top: 105px;
+    left: 15px;
+}
+.s3 .d1ok h5{
+    position: relative;
+    left: 35px;
+    top: 110px;
+}
+.s3 .v{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 2px;
+    top: 5px;
+    border: none;
+}
+.s3 .v2{
+    width: 250px;
+    height: 45px;
+    position: relative;
+    left: -2px;
+    top: -50px;
+    border: none;
+}
+.s3 .touche:hover{
+    box-shadow: 2px 2px 20px gray;
+
 }
