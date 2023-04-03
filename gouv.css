@@ -169,8 +169,15 @@ position: relative;
 left: 315px;
 top: -10px;
 border: none;
+ border-bottom:2px gray solid ;
 background: none;
+outline: none;
 }
+#search:hover{
+    background-color:white;
+    border: none;
+}
+
 .s1{
     height: 80px;
     background-color: #f5f5f5 !important;
@@ -492,4 +499,12 @@ gap: 30px;
     position: relative;
     left: 13px;
     top: -2px;
+}
+.s4 .M :hover{
+    border: 1PX RED solid;
+    width: 550PX;
+    height: 60PX;
+    position: relative;
+    left: 70px;
+    box-shadow: 4px 4px 20;
 }
